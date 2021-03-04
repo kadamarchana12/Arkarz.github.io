@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Arkarz/projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="card.css">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="project.css">
+  <style>
+
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/Arkarz.png" alt="" height="30px" width="90px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="Clients.html">CLIENTS</a></li>
+        <li><a href="projects.html">PROJECT</a></li>
+		<li><a href="career.html">CAREER</a></li>
+        <li><a href="contacts.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="" style="background-image:url(images/image1.png);height: 500px;color:white;">
+  <br>
+  <center><h1> <b><br><br><br><br><br><br> Projects </b></h1></center> 
+</div> 
+<div class="container-fluid" style="height: 10px;">
+<h2 style="text-align:center">OUR PROJECTS</h2> <hr>   
+</div>
+<div id="" class="container-fluid text-center">
+		
+		<div class="row slideanim">
+            <div class="container">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="images/project/1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="images/project/5.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="images/project/2.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="images/project/3.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="images/project/4.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="images/project/6.jpg" style="width:100%">
+                </div>
+                  
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+              
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="VORAN SERVICES">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/5.jpg" style="width:100%" onclick="currentSlide(2)" alt="DIGITAL MEDIA SOLUTIONS">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/2.jpg" style="width:100%" onclick="currentSlide(3)" alt="DISHA BAHUUDDESHIY SEVABHAVI SANSTHA">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/3.jpg" style="width:100%" onclick="currentSlide(4)" alt="VASANTRAO NAIK SHIKSHAN PRASARAK MANDAL, JALNA">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/4.jpg" style="width:100%" onclick="currentSlide(5)" alt="DR. GANGADHARRAO PATHRIKAR COLLEGE OF AGRICULTURE">
+                  </div>    
+                  <div class="column">
+                    <img class="demo cursor" src="images/project/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="शासकीय पुनर्नियुक्त माजी सैनिक संघटनाशासकीय पुनर्नियुक्त माजी सैनिक संघटना.">
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+</div>
+
+
+
+
+
+<!-- Container (Portfolio Section) -->
+<br>
+  
+  
+<!-- Image of location/map -->
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+
+</body>
+</html>
